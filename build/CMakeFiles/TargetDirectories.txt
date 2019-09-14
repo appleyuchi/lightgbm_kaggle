@@ -1,0 +1,8 @@
+/content/sample_data/LightGBM/build/CMakeFiles/install/strip.dir
+/content/sample_data/LightGBM/build/CMakeFiles/install/local.dir
+/content/sample_data/LightGBM/build/CMakeFiles/install.dir
+/content/sample_data/LightGBM/build/CMakeFiles/list_install_components.dir
+/content/sample_data/LightGBM/build/CMakeFiles/rebuild_cache.dir
+/content/sample_data/LightGBM/build/CMakeFiles/_lightgbm.dir
+/content/sample_data/LightGBM/build/CMakeFiles/edit_cache.dir
+/content/sample_data/LightGBM/build/CMakeFiles/lightgbm.dir
