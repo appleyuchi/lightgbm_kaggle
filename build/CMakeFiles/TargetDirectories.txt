@@ -1,0 +1,8 @@
+/kaggle/working/LightGBM/build/CMakeFiles/install/strip.dir
+/kaggle/working/LightGBM/build/CMakeFiles/install/local.dir
+/kaggle/working/LightGBM/build/CMakeFiles/install.dir
+/kaggle/working/LightGBM/build/CMakeFiles/list_install_components.dir
+/kaggle/working/LightGBM/build/CMakeFiles/rebuild_cache.dir
+/kaggle/working/LightGBM/build/CMakeFiles/_lightgbm.dir
+/kaggle/working/LightGBM/build/CMakeFiles/lightgbm.dir
+/kaggle/working/LightGBM/build/CMakeFiles/edit_cache.dir
