@@ -137,3 +137,23 @@ License
 -------
 
 This project is licensed under the terms of the MIT license. See [LICENSE](https://github.com/microsoft/LightGBM/blob/master/LICENSE) for additional details.
+
+
+
+
+使用下面的命令可以在kaggle的notebook中迅速安装lightgbm的GPU版本
+
+
+%%time
+# CPU times: user 928 ms, sys: 328 ms, total: 1.26 s
+# Wall time: 43.7 s
+!rm -r /kaggle/working/lightgbm_kaggle 
+!rm -r /kaggle/working/LightGBM
+!rm -r /opt/conda/lib/python3.6/site-packages/lightgbm
+# !git clone --recursive https://github.com/Microsoft/LightGBM
+!git clone https://github.com/appleyuchi/lightgbm_kaggle 
+!mv lightgbm_kaggle  LightGBM
+!apt-get install -y -qq libboost-all-dev
+# !cd LightGBM;rm -r build;mkdir build;cd build;echo"here1";cmake -DUSE_GPU=1 -DOpenCL_LIBRARY=/usr/local/cuda/lib64/libOpenCL.so -DOpenCL_INCLUDE_DIR=/usr/local/cuda/include/ ..;echo"here2";make -j$(nproc)
+!cd LightGBM/python-package/;python setup.py install --precompile
+!mkdir -p /etc/OpenCL/vendors && echo "libnvidia-opencl.so.1" > /etc/OpenCL/vendors/nvidia.icd
